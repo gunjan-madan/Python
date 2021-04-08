@@ -6,7 +6,7 @@ print("Hello World")
 print('Hello World')
 
 #DIY
-#Print "I am wager to learn Python!"
+#Print "I am eager to learn Python!"
 
 
 '''-----------Task-2: Combine Multiple Strings ----------'''

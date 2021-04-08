@@ -35,3 +35,17 @@ print("*** Task 2:***")
 #DIY
 #Use to operators to print Quotient and Remainder when we divide 126 by 3
 #Print 4^5 using the operators
+
+
+
+'''*****Task 3: Magical Piggy Bank******'''
+print(" ")
+print("*** Task 3:***")
+# Imagine you get up one morning and discover that  your piggy bank has turned magical. 
+# Overnight it has been adding 2 gold coins.
+# Now put on your calculating hat and write a python program to get the below answers:
+# How many coins will you have if this goes on for a year?  
+# Later you realise if you don't check the piggy bank by the end of the week it will take away 1 coin. 
+# How much will you be left with ? 
+# Had it come true you would have to share half of the coins with me? Now how much will you be left with?
+
