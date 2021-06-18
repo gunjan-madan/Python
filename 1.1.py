@@ -46,3 +46,9 @@ print("*** Task 4: ***")
 #  print( )
 #else: 
 #  print( )
+
+"""------Task 5:  Positive or Not --------"""
+print(" ")
+print("*** Task 5: ***")
+# Write a program to take a number as an input from the user.
+# Check if the number is positive or negative
