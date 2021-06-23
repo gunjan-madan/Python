@@ -8,21 +8,8 @@
 print(" ")
 print("*** Task 1: ***")
 # Do you know what are isosceles and scalene triangles? 
-# Here is a program to check if a triangle is equilateral, scalene or isosceles.
-# Uncomment the statements and click Run 
-#a=input("Enter the first side of the triangle:  ")
-#b=input("Enter the second side of the triangle: ")
-#c=input("Enter the third side of the triangle: ")
-#if (a == b) and (a==c):
-# print( "Equilateral triangle")
-#elif a == b and a!= c:
-# print("Isosceles triangle.")
-#elif a == c and a!=b:
-# print("Isosceles triangle.")
-#elif b==c and b!=a:
-# print("Isosceles triangle.")
-#else:
-# print("Scalene Triangle")
+# Write a program to check if a triangle is equilateral, scalene or isosceles.
+
 
 """-----------Task 1.2:  All in One ---------------"""
 print(" ")

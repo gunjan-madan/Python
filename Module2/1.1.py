@@ -16,12 +16,7 @@ print(" ")
 print("*** Task 2: ***")
 # Ready to try out your first program to test a condition.
 # Uncomment the statements and click on Run
-#a=input("Enter a number:")
-#b=input("Enter another number: ")
-#if a>b:
-#  print("The greater of the two numbers is: ", a)
-#else: 
-#  print("The greater of the two numbers is: ",b)
+
 
 """-----------Task 3:  Even or Odd ---------------"""
 print(" ")
