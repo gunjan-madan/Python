@@ -11,3 +11,19 @@ print()
   #if user guessed lower than actual number, then print "TOO LOW"
    #if user guessed lower than actual number, then print "TOO HIGH"
 
+'''Task 2: Nested If-else'''
+print()
+print("*** Task 2: ***")
+print()
+#This is a program to tell User the shipping cost based on the country and the weight.
+#Write a Program that takes two inputs: country_code(AU/US) and weight of the product.
+#Use the following conditions to find the shipping cost
+#country          Product Size               Shippping cost
+#US               less than 1kg               $5
+#US               between 1 and 2kg           $10
+#US               greater than 2kg            $20
+#AU               less than 1kg               $10
+#AU               between 1 and 2kg           $15
+#AU               greater than 2kg            $25
+
+#print("This Program will caluculate Shipping Cost")
