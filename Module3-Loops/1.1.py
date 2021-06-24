@@ -28,10 +28,11 @@ print("**** Task 2: ****")
 print()
 # Sam is having fun learning with you. He wants  you to write a program to print the first 100 numbers.
 # Can you do that? 
-
+print("**Printing the first hundred numbers**")
 
 
 #Also find total of first hundred numbers
+print("**Printing the sum of first hundred numbers**")
 
 
 
