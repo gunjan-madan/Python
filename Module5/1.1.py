@@ -114,7 +114,7 @@ print()
 
 
 '''Task 8: Let's go for lunch'''
-print("***** Task 8: ***** ")
+print("***** Task : ***** ")
 print()
 # StudMonkey is feeling hungry, he takes his friends for lunch
 # They decided to split the bill amount of INR 187.93 into two equal parts. The tip money which is 20% of the bill amount is added to the total amount.
