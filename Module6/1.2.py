@@ -41,3 +41,8 @@ print()
 # Write a function to find the factorial of a number.
 # The factorial of a number is the product of all the integers from 1 to that number. 
 # For example, the factorial of 5 is 1*2*3*4*5 = 120 
+
+''' Task 4: LCM '''
+print("***** Task 3: *****")
+print()
+# Create a function to find the LCM of two numbers.
