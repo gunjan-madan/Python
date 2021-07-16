@@ -18,6 +18,7 @@ print()
 ''' Task 2: Redefine the function '''
 print("****** Task 2: *****")
 print()
+#Sending the parameter to the function
 # Uncomment  the statements and click Run
 
 #def studentdetails(name):
