@@ -43,4 +43,4 @@ myFun2(first ='Geeks', mid ='for', last ='Geeks')
 ''' Task 3:  Variable arguments '''
 print("***** Task 3: *****")
 print()
-#Write a function that take **kwargs (all integers) and find their average
+#Write a function that take **kwargs (all integers and min 5 numbers) and find their average
