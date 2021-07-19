@@ -1,3 +1,5 @@
+#Date, time, timezone
+
 # Can we automatically calculate the  age of a person or find out if the current year is a leap year or not.
 # Let's take a look.  
 
@@ -20,6 +22,21 @@ print()
 # day - Displays the current date from the date returned by the datetime.now() function
 # month - Displays the current month from the date returned by the datetime.now()
 # year - Displays the current year from the date returned by the datetime.now()
+
+'''Timezone '''
+#By default Datetime will display UTC (Universal Time)
+#To get time of a specific timezone, we need another module
+
+# import datetime
+# import pytz
+# time_zone= pytz.timezone('US/Eastern')
+# y= datetime.datetime.now(time_zone)
+# print(y)
+
+#List of all timezones
+# for tz in pytz.all_timezones:
+#   print(tz)
+
 
 '''Task - Calculate age of the person'''
 # Write a program that calculates the age of a person using the list of functions given in the table. 
