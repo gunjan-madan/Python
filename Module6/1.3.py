@@ -37,10 +37,28 @@ print()
 #         print ("% s == % s" %(key, value))
 
 
-print("\nResult of **kwargs")
-myFun2(first ='Geeks', mid ='for', last ='Geeks') 
+# print("\nResult of **kwargs")
+# myFun2(first ='Geeks', mid ='for', last ='Geeks') 
 
 ''' Task 3:  Variable arguments '''
 print("***** Task 3: *****")
 print()
 #Write a function that take **kwargs (all integers and min 5 numbers) and find their average
+
+
+'''Task4: Global vs Local Variables'''
+print("***** Task 4: *****")
+print()
+#Global variables are the ones that are defined and declared outside any function and are not specified to any function. They can be used by any part of the program.
+#Local variables are specific to a particular function
+# This function has a variable with 
+# name same as s. 
+
+# def f():  
+#     s = "Me too."
+#     print(s) 
+    
+# # Global scope 
+# s = "I love python" 
+# f() 
+# print(s)
