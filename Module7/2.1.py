@@ -31,8 +31,14 @@ print()
 #If there are multiple books by authors and you want to group them together.
 # Uncomment the statements below and click Run.
 # bookdetails={"SN1":{"Dr.Seuss","The Cat in the Hat"},
-#             "SN2":{"E. B. White":"Charlotte's Web"}}
+#             "SN2":{"E. B. White","Charlotte's Web"}}
 # print(bookdetails["SN1"])
+
+#We can also assign keys to the nested dictionary.
+# books={"SN1":{1:"Dr.Seuss",2:"The Cat in the Hat"},
+#              "SN2":{1:"E. B. White",2:"Charlotte's Web"}}
+# print(bookdetails["SN1"][1])
+
 
 print('*** Task: Groups***')
 print()
