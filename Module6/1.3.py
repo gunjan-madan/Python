@@ -23,27 +23,34 @@ print()
 print("***** Task 2: *****")
 print()
 #We can also pass varying number of arguments to the function
-# def myFun(*argv): 
-#     for arg in argv: 
+# def myFun(*args): 
+#     for arg in args: 
 #         print (arg)
 
 # print("Result of * args: ")
 # myFun('Hello', 'Welcome', 'to', 'Python')
 
-
-#Can also pass varying number of arguments through keywords using double star
-# def myFun2(**kwargs): 
-#     for key, value in kwargs.items():
-#         print ("% s == % s" %(key, value))
+''' Task '''
+#Write a function that take **args (all integers and min 5 numbers) and find their average
 
 
-# print("\nResult of **kwargs")
-# myFun2(first ='Coding', mid ='Is', last ='Interesting') 
-
-''' Task 3:  Variable arguments '''
-print("***** Task 3: *****")
+''' Task 4:  Variable arguments with Keywords '''
+print("***** Task 4: *****")
 print()
-#Write a function that take **kwargs (all integers and min 5 numbers) and find their average
+#Can also pass varying number of arguments through keywords using double star
+def myFun2(**kwargs): 
+    for key, value in kwargs.items():
+        print ("% s == % s" %(key, value))
+
+
+print("\nResult of **kwargs")
+myFun2(first ='Coding', mid ='Is', last ='Interesting') 
+
+
+''' Task '''
+#Write a function that take **kwargs 
+#Take five numbers input from user, send it to function using **kwargs with their keywords (First, Second, Third, Fourth, Fivth)
+#Find the maximum and print the number along with the keyword
 
 
 '''Task4: Global vs Local Variables'''
