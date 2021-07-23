@@ -28,7 +28,7 @@ print()
 #         print (arg)
 
 # print("Result of * args: ")
-# myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
+# myFun('Hello', 'Welcome', 'to', 'Python')
 
 
 #Can also pass varying number of arguments through keywords using double star
@@ -38,7 +38,7 @@ print()
 
 
 # print("\nResult of **kwargs")
-# myFun2(first ='Geeks', mid ='for', last ='Geeks') 
+# myFun2(first ='Coding', mid ='Is', last ='Interesting') 
 
 ''' Task 3:  Variable arguments '''
 print("***** Task 3: *****")
