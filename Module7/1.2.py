@@ -7,6 +7,20 @@ print()
 # Create a list of above codewords
 # Take an input codeword from user
 # Check if that matches from the list. If it matches, person can enter otherwise not
+codewords=["rainbow", "butterfly", "sunshine","cupcake"]
+guestcdwrd=input("Enter the codeword: ")
+# for i in codewords:
+#  if guestcdwrd.lower()==i:
+#    print("The codeword is right. You may enter.")
+#    break;
+# else:
+#  print("Sorry. Incorrect Password")
+
+if(guestcdwrd in codewords):
+  print("The codeword is right. You may enter.")
+else:
+  print("Sorry. Incorrect Password")
+
 
 
 
@@ -24,7 +38,22 @@ print()
 # Can you help Mr.Beaver write a Python program that calculates the brownie points earned by each member in a week.
 # Mr.Beaver wants a list that displays the name of the family member, hours worked and brownie points earned.
 # For example [Otto, 3,5,Beth,5,10, Bob, 2,5,Emma,7,15]
-
+score=[]
+bpoints=0
+family=["Otto","Bob","Bert","Emma"]
+for i in family:
+ print("Hi ", i)
+ hrs=float(input("Enter the number of hours you worked in the gym: "))
+ if hrs<=3:
+   bpoints=5
+ elif hrs>=4 and hrs<=6:
+   bpoints=10
+ else:
+   bpoints=15   
+ score.append(i)
+ score.append(hrs)
+ score.append(bpoints)
+print(score)
 
 
 '''Task 3: Let’s string them together'''
@@ -36,3 +65,19 @@ print()
 # The list consisting of the following items is then shared with the customer: [name of the customer, total number of eggs,total cost]
 # Write a program to help Mr.Beaver generate the list.
 # Remember your program should allow for more than one customer entry.
+custdetails=[]
+exitch=""
+while(exitch.lower()!="exit"):
+ custname=input("Enter your name: ")
+ pack=int(input("What type of packaging do you need:\n 1.Pack of 5\n 2.Pack of 10?\n"))
+ noOfPacks=int(input("How many packs do you want? "))
+ if pack==1:
+     toteggs=5*noOfPacks
+ else:
+   toteggs=10*noOfPacks
+ totcost=toteggs*2
+ custdetails.append(custname)
+ custdetails.append(toteggs)
+ custdetails.append(totcost)
+ exitch=input("Do you want to enter another customer details?\nPress Enter to continue or Exit to stop")
+print(custdetails)
