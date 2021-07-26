@@ -9,23 +9,6 @@ print()
 #- A randomly generated number between 1 and 100
 # - A random selection of special characters (Special characters to be used are: $,#,@,!) 
 
-import datetime
-import random
-color=["red","blue","pink","yellow"]
-spchar=["$","#","@","!"]
-dt = datetime.datetime.now()
-d=str(dt.year)
-#random pick of colour
-z=random.choice(color)
-#random pick of special character
-y=random.choice(spchar)
-x=str(random.randint(1,100))
-print(d)
-print(z)
-print(y)
-print(x)
-uid=d+y+x+z
-print("The unique ID generated is: ",uid)
 
 ''' Task 2: Duplicate or not '''
 print("****** Task2: ******")
@@ -35,22 +18,3 @@ print()
 # If the item exists, display a message saying "Item exists"
 # If the item does not exist, append the item to the list and display the entire list
 # The existing list has the following items:  tables, chairs, bed, dresser
-items=["tables", "chairs", "bed", "dresser"]
-print("**** List of Items*****")
-newitem=input("Enter the item: ")
-newitem=newitem.lower()
-present=0
-for i in items:  
- if i==newitem:
-   present=1
-   break
- else:
-   present=0
-   break
-
-if present==1:
-  print("Item exists")
-else:
-  print("Item does not exist")  
-
-print("Here is the list of items:\n",items)
