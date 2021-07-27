@@ -58,3 +58,21 @@ print()
 # Delete entire nested dictionary
 # del members[4]
 # print(members)
+
+''' Task 1: Stack it Right '''
+print("****** Task 1: ******")
+print()
+#Create a nested dictonary for icecreams and display result like:
+
+# Ice Cream: 0
+# flavor: Vanilla
+# price: 0.5
+# pints: 20
+# Ice Cream: 1
+# flavor: Chocolate
+# price: 0.5
+# pints: 31
+# Ice Cream: 2
+# flavor: Cookies and Cream
+# price: 0.75
+# pints: 14
