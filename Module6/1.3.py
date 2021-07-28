@@ -51,21 +51,3 @@ myFun2(first ='Coding', mid ='Is', last ='Interesting')
 #Write a function that take **kwargs 
 #Take five numbers input from user, send it to function using **kwargs with their keywords (First, Second, Third, Fourth, Fivth)
 #Find the maximum and print the number along with the keyword
-
-
-'''Task4: Global vs Local Variables'''
-print("***** Task 4: *****")
-print()
-#Global variables are the ones that are defined and declared outside any function and are not specified to any function. They can be used by any part of the program.
-#Local variables are specific to a particular function
-# This function has a variable with 
-# name same as s. 
-
-# def f():  
-#     s = "Me too."
-#     print(s) 
-    
-# # Global scope 
-# s = "I love python" 
-# f() 
-# print(s)
