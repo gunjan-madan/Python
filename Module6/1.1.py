@@ -42,7 +42,8 @@ print()
 ##Call the function
 #num1=int(input("Enter the first number: ")) 
 #num2=int(input("Enter the second number: "))
-#print("The sum is: ",addition(num1,num2))
+#result =addition(num1,num2)
+#print("The sum is: ",result)
 
 # The function : 
 # - Takes two arguments as input
