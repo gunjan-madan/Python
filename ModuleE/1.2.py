@@ -53,3 +53,9 @@ print()
 #   r = 1/int(entry)
 #   print("The reciprocal of", entry, "is", r)
 #   i=i+1
+
+
+''' Task 4: Multiple Exceptions '''
+print("***** Task 3: *****")
+print()
+#Handle all above mentioned exceptions in once except block
