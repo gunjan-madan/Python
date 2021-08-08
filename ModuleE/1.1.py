@@ -87,3 +87,59 @@ print()
 # You will notice that the custom error message is displayed when the error occurs
 # Write a program asking the user to enter a username which is not more than 15 characters in length. An exception should be raised if the length is greater than.
 
+
+''' Task 4: Fix the Calculator '''
+print("***** Task 4: *****")
+print()
+# Do you remember you had created the simple Calculator App in Chapter 3? 
+# Given below is the code for tha calculator App.
+# Uncomment the code and include the try-except-else block to:
+# - Ensure that the user enters valid numbers
+# - Display an error message if the user input is missing
+
+
+
+# def add():
+#   a= int(input("Enter the first number:"))
+#   b= int(input("Enter the second number:"))
+#   ans=a+b
+#   return ans
+  
+# def subtract():
+#   a= int(input("Enter the first number:"))
+#   b= int(input("Enter the second number:"))
+#   ans=a-b
+#   return ans
+
+
+# def multiply():
+#   a= int(input("Enter the first number:"))
+#   b= int(input("Enter the second number:"))
+#   ans=a*b
+#   return ans
+
+
+# def divide():
+#   a= int(input("Enter the first number:"))
+#   b= int(input("Enter the second number:"))
+#   ans=a/b
+#   return ans
+
+
+# print("Welcome to The Calculator")
+# print("Press 1 to add two numbers.\nPresss 2 to subtract two numbers.\nPress 3 to multiply two numbers.\nPress 4 to divide two numbers.")
+
+
+# i= input("Enter your choice:")
+
+# if i=="1":
+#   add()
+# elif i=="2":
+#   subtract()
+# elif i=='3':
+#   multiply()
+# elif i=='4':
+#   divide()
+# else:
+#   print("Please provide a valid input.")
+
