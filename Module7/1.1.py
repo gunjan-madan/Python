@@ -8,7 +8,7 @@ print()
 # Note that the position of the item starts with 0
 #For example:
 
-# fruits = ["Banana", "Kiwi", "Apple", "Grapes"]
+fruits = ["Banana", "Kiwi", "Apple", "Grapes"]
 # print(fruits)
 # print(fruits[0])
 # print(fruits[1])
@@ -17,6 +17,16 @@ print()
 
 '''Task- Use For Loop'''
 # Can you change the code to print the list of fruits using a for loop?
+
+
+'''Retrieve Few items'''
+# print(fruits[2:3])
+
+# #retrieve the last item
+# print(fruits[-1])
+
+##Reverse the list
+#print(fruits[::-1])
 
 '''Task 2:  Grocery Dam'''
 print("****** Task 2: *****")
