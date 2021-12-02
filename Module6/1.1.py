@@ -8,7 +8,7 @@ print()
 
 ##Define a user-defined function
 #def welcome():
-# print("Welcome to Cuemath Python class!!")
+# print("Welcome to the Python class!!")
 ##Call the function
 #welcome()
 
